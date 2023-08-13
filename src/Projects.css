@@ -1,0 +1,61 @@
+/* Projects.css */
+
+.projects {
+    padding: 3rem 0;
+    margin-left: 1px;
+    margin-top: -30px;
+  }
+  
+  .projects h2 {
+    font-size: 30px;
+    margin-bottom: 1.2rem;
+    margin-top: 0.2rem;
+  }
+  
+  .project-item {
+    margin-bottom: 2rem;
+  }
+  
+  .project-item h5 {
+    font-size: 15px;
+    margin-bottom: 0.5rem;
+    color: #555;
+  }
+  
+  .project-item p {
+    font-size: 1.1rem;
+    color: #777;
+    margin: 0.5rem 0;
+  }
+  
+  .project-item a {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    text-decoration: none;
+  }
+  
+  .projects h2::after {
+    content: '';
+    display: block;
+    width: 120px;
+    height: 3px;
+    background-color: #007bff;
+    margin-top: 0.5rem;
+  }
+  
+  @media (max-width: 768px) {
+    .project-item h5 {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+    
+    .project-item p {
+        font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+    
+    .project-item a {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+}

@@ -1,0 +1,26 @@
+/* Footer.css */
+
+.footer {
+    background-color: #283030;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    width: 97%; /* Set width to 100% */
+    position: absolute; /* Position the footer at the bottom */
+    bottom: 0; /* Align the footer at the bottom of the viewport */
+    margin-left: -500px;
+    margin-bottom: -1295px;
+  }
+  
+  .footer p {
+    font-size: 15px;
+    margin: 0;
+  }
+  
+  /* Media Queries */
+@media (max-width: 768px) {
+    .footer {
+      padding: 1rem;
+      font-size: 14px;
+    }
+  }
